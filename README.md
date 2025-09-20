@@ -1,6 +1,7 @@
 # Building-a-RISC-V-CPU-Core
 
 This project implements a simple **RISC-V RV32I CPU core** in **TL-Verilog**, created while following the *Building a RISC-V CPU Core* course on [Makerchip](https://makerchip.com/).
+![CPU Diagram](images/img2.png)
 
 ---
 
@@ -75,7 +76,7 @@ top\_stats/               # Compiler statistics
 3. Ensure this include is present:
    ```tlv
    m4_include_lib(['https://raw.githubusercontent.com/stevehoover/LF-Building-a-RISC-V-CPU-Core/main/lib/risc-v_shell_lib.tlv'])
-````
+
 
 4. Compile & Simulate.
 5. In VIZ:
@@ -88,6 +89,7 @@ top\_stats/               # Compiler statistics
    ```
    Simulation PASSED!!!
    ```
+![CPU Diagram](images/img1.png)
 
 ---
 
