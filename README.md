@@ -1,6 +1,8 @@
 # Building-a-RISC-V-CPU-Core
 
 This project implements a simple **RISC-V RV32I CPU core** in **TL-Verilog**, created while following the *Building a RISC-V CPU Core* course on [Makerchip](https://makerchip.com/).
+
+
 ![CPU Diagram](images/img2.png)
 
 ---
